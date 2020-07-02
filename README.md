@@ -9,9 +9,25 @@ In this article I will explain some important concepts in image processing, and 
 # Pre-requisites
 
     Python 3.5 or higher
+    Python3-Tk
+    Dlib
+
+# Dependencies
+
+     To plot images install
+     $ sudo apt-get install python3-tk 
+     
+     To use Dlib propely
+     $ sudo apt-get install libboost-all-dev
+
 
 # Setup
 
     $ mkvirtualenv -p python3.5 facial-recognize
-    $ workon python3.8
+    $ workon facial-recognize
     $ pip install -r requirements.txt
+    
+ # run 
+ 
+    $ python domain/frontal_face_classifier.py
+    $ python domain/facial_landmarks_classifier.py
