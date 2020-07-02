@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def va():
     group_of_people_image = cv2.imread('images/image7.jpg')
-    frontal_face_classifier = cv2.CascadeClassifier('classifier/haarcascade_frontalface_default.xml')
+    frontal_face_classifier = cv2.CascadeClassifier('classifiers/haarcascade_frontalface_default.xml')
 
     image_in_gray_scale = cv2.cvtColor(group_of_people_image, cv2.COLOR_BGR2GRAY)
     faces = frontal_face_classifier.detectMultiScale(image=image_in_gray_scale, scaleFactor=1.3, minNeighbors=6)
@@ -28,7 +28,7 @@ def va():
 def b():
     group_of_people_image = cv2.imread('images/image6.jpg')
     image_in_gray_scale = cv2.cvtColor(group_of_people_image, cv2.COLOR_BGR2GRAY)
-    frontal_face_classifier = cv2.CascadeClassifier('classifier/haarcascade_frontalface_default.xml')
+    frontal_face_classifier = cv2.CascadeClassifier('classifiers/haarcascade_frontalface_default.xml')
     faces = frontal_face_classifier.detectMultiScale(image=image_in_gray_scale, scaleFactor=1.3, minNeighbors=5)
 
     print(len(faces))

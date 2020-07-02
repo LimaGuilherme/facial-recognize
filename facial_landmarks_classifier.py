@@ -8,7 +8,7 @@ initial_image = cv2.imread('images/image9.jpg')
 imagem = cv2.cvtColor(initial_image, cv2.COLOR_BGR2RGB)
 
 
-classificador_dlib = dlib.shape_predictor('classifier/shape_predictor_68_face_landmarks.dat')
+classificador_dlib = dlib.shape_predictor('classifiers/shape_predictor_68_face_landmarks.dat')
 detector_face = dlib.get_frontal_face_detector()
 
 def anotar_rosto(imagem):
@@ -51,4 +51,4 @@ if __name__ == '__main__':
     plt.figure(figsize=(20, 10))
     plt.imshow(imagem_anotada)
     plt.show()
-    cv2.imwrite('result-images/aaaaaa2aa.png', imagem_anotada)
+    cv2.imwrite('result-images/landmarks.png', imagem_anotada)
