@@ -2,9 +2,9 @@
 
 This repository was made to storage the code for my Medium article:
 
-<url> 
+https://medium.com/swlh/facial-recognize-in-python-406dcbdcee4d
  
-In this article I will explain some important concepts in image processing, and also provide an easy recognition project made in Python using Cv2 and DLib libaries.
+In this article I will explain some important concepts in image processing, and also provide an easy recognition project made in Python using Cv2 and DLib libraries.
 
 # Pre-requisites
 
@@ -17,7 +17,7 @@ In this article I will explain some important concepts in image processing, and 
      To plot images install
      $ sudo apt-get install python3-tk 
      
-     To use Dlib propely
+     To use Dlib properly
      $ sudo apt-get install libboost-all-dev
 
 
