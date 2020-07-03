@@ -1,4 +1,4 @@
-#About the Project
+# About the Project
 
 This repository was made to storage the code for my Medium article:
 
